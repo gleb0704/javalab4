@@ -33,7 +33,7 @@ public class ConsoleApp {
             }
 
         } catch (Exception e) {
-            System.err.println("Произошла критическая ошибка: " + e.getMessage());
+            System.err.println("Произошла ошибка: " + e.getMessage());
         }
     }
 }
