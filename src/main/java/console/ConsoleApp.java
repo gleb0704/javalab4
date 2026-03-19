@@ -25,11 +25,11 @@ public class ConsoleApp {
                 FileUtils.writeLinesToFile(inputArgs.getOutputFile(), resultLines);
                 System.out.println("Результат сохранен в файл: " + inputArgs.getOutputFile());
             } else {
-                System.out.println("--- Результат обработки ---");
+                System.out.println("Результат обработки");
                 for (String line : resultLines) {
                     System.out.println(line);
                 }
-                System.out.println("---------------------------");
+                System.out.println("");
             }
 
         } catch (Exception e) {
